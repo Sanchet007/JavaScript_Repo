@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array</title>
+  </head>
+  <body>
+    <script>
+      // ---exercise 1---
+      // let arr = [5,6];
+      // arr.push(7);
+      // arr.unshift(4);
+      // console.log(arr);
+      // console.log(arr.pop());
+      // console.log(arr);
+
+
+      // ---exercise 2---
+      // function getElement(array, index) {
+      //   return array[index - 1];
+      // }
+
+      // let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+      // console.log(getElement(array, 1));
+
+
+      //---exercide 3---
+      // function arrayCopy(array){
+      //   return array.slice(0, array.length);
+      // }
+
+      // let array = [1,2,3,4,5];
+      // let copyArray = arrayCopy(array);
+      // console.log(array);
+
+      // copyArray[0] = null;
+      // console.log(copyArray);
+
+
+      //---exercise 4---
+      // function isPrime(num){
+      //   for (let i = 2; i < num; i++){
+      //     if(num % i == 0){
+      //       return false;
+      //     }
+      //   } 
+      //   return true;
+      // }
+
+      // let number = 2;
+      // let i = 0;
+
+      // while(true){
+      //   if(isPrime(number)){
+      //     console.log(number);
+      //     i++;
+      //     if(i >= 5){
+      //       break;
+      //     }
+      //   }
+      //   number++;
+      // }
+
+
+      //---exercise 5---
+      // for(let i = 10; i > 0; i--){
+      //   console.log(i);
+      // }
+
+      // for(let i = 0; i < 10; i++){
+      //   console.log(10 - i);
+      // }
+
+
+      //---exercise 6---
+      // let num = [1,-6,5,7,-98]
+      // for(let i = 0; i < num.length; i++){
+      //   if(num[i] < 0){
+      //     continue;
+      //   }
+      //   console.log(num[i]);
+      // }
+
+
+      //---exercise 7---
+      let array = ['KG', 'Coding', 'JavaScript', 'Course', 'is', 'Best'];
+      let result= '';
+
+      for(let i = 0; i < array.length; i++){
+        result += array[i] + ' ';
+      }
+      console.log(result);
+
+      console.log(array.join(" "));
+
+    </script>
+  </body>
+</html>

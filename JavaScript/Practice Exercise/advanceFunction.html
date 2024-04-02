@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advance Function</title>
+<style>
+  .btn-click{
+    font-size: 15px;
+    height: 20px;
+    width: 80px;
+    background-color: rgb(212, 51, 51);
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .size-double{
+    font-size: 30px;
+    height: 40px;
+    width: 160px;
+  }
+</style>
+
+</head>
+<body>
+  <button class="btn-click">Click me</button>
+<script>  
+
+//EXERCISE 1
+// let multiply = (num1, num2) => num1 * num2;
+// console.log(multiply(5,5));
+
+
+//EXERCISE 2
+// let showGreetings = () => console.log("Good Morning!!!");
+
+// let runTwice = inputFunction => {
+//   inputFunction();
+//   inputFunction();
+// };
+
+// runTwice(showGreetings);
+
+
+//EXERCISE 3  
+// function doubleTheSize(){
+//   let buttonElement = document.querySelector('.btn-click');
+//   buttonElement.classList.add('size-double');
+// }
+
+
+//EXERCISE 4
+let buttonElement = document.querySelector('.btn-click');
+buttonElement.addEventListener('click', event => setTimeout(doubleTheSize, 2000));
+
+function doubleTheSize(){
+  buttonElement.classList.add('size-double');
+}
+
+
+//EXERCISE 5
+let arr = [1,2,3,4,5,6,7,8,9];
+let sum = 0;
+arr.forEach(x => sum = sum + x);
+console.log(sum);
+
+
+//EXERCISE 6
+let squares = arr.map( x => x * x);
+console.log(squares);
+
+</script>
+
+</body>
+</html>

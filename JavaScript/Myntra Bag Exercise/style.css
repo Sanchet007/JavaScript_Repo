@@ -1,0 +1,23 @@
+#addToBag{
+  background-color: greenyellow;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+#wishlist{
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+#updatedValue{
+  background-color: greenyellow;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+}
